@@ -50,7 +50,7 @@ const Section5 = () => {
       </div>
       <hr />
       <div className="md:flex md:justify-between">
-        <div className="flex justify-center items-center py-3 ">
+        <div className="flex justify-center items-center py-3 text-[10px] md:text-lg ">
           Copyright <span className="text-xl px-1">&copy;</span> 2021 HooBank.
           All Rights are Reserved.
         </div>
