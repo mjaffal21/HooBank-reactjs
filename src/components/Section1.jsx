@@ -9,7 +9,7 @@ const Section1 = () => {
       <div className="my-20 flex flex-col md:flex-row md:items-center md:justify-center">
         <div className="md:w-[50%]">
           <div className="flex gap-2 items-center text-sm">
-            <img src={discount} alt="discount" />
+            <img src={discount} loading="lazy" alt="discount" />
             <p className="text-white">
               20% <span className="text-gray-400">DISCOUNT FOR</span> 1 MONTH{" "}
               <span className="text-gray-400">ACCOUNT</span>
@@ -27,10 +27,11 @@ const Section1 = () => {
             </p>
           </div>
         </div>
-        <img src={image1} alt="image1" className="md:w-[40%]" />
+        <img src={image1} loading="lazy" alt="image1" className="md:w-[40%]" />
       </div>
       <img
         src={getstarted}
+        loading="lazy"
         alt="getstarted"
         className="bg-transparent absolute hidden lg:block md:left-[40%] md:top-[10%]"
       />

@@ -22,13 +22,13 @@ const Section4 = () => {
       </div>
       <div className="mt-10 flex flex-col md:flex-row md:gap-5">
         <div id="testimonial1" className="max-w-md mx-auto my-10 p-5 md:my-0">
-          <img src={doubleQuotes} alt="doublequotes" />
+          <img src={doubleQuotes} loading="lazy" alt="doublequotes" />
           <p className="text-white mt-5 max-w-[20rem] pb-5">
             Money is only a tool. It will take you wherever you wish, but it
             will not replace you as the driver.
           </p>
           <div className="flex gap-5">
-            <img src={testimonial1} alt="testimonialImage" />
+            <img src={testimonial1} loading="lazy" alt="testimonialImage" />
             <div>
               <h1 className="text-white">Herman Jensen</h1>
               <p className="text-gray-400">Founder & Leader</p>
@@ -37,13 +37,13 @@ const Section4 = () => {
         </div>
 
         <div id="testimonial2" className="max-w-md mx-auto mb-10 p-5 md:mb-0">
-          <img src={doubleQuotes} alt="doublequotes" />
+          <img src={doubleQuotes} loading="lazy" alt="doublequotes" />
           <p className="text-white mt-5 max-w-[20rem] pb-5">
             Money is only a tool. It will take you wherever you wish, but it
             will not replace you as the driver.
           </p>
           <div className="flex gap-5">
-            <img src={testimonial2} alt="testimonialImage" />
+            <img src={testimonial2} loading="lazy" alt="testimonialImage" />
             <div>
               <h1 className="text-white">Steve Mark</h1>
               <p className="text-gray-400">Founder & Leader</p>
@@ -52,13 +52,13 @@ const Section4 = () => {
         </div>
 
         <div id="testimonial3" className="max-w-md mx-auto p-5">
-          <img src={doubleQuotes} alt="doublequotes" />
+          <img src={doubleQuotes} loading="lazy" alt="doublequotes" />
           <p className="text-white mt-5 max-w-[20rem] pb-5">
             Money is only a tool. It will take you wherever you wish, but it
             will not replace you as the driver.
           </p>
           <div className="flex gap-5">
-            <img src={testimonial3} alt="testimonialImage" />
+            <img src={testimonial3} loading="lazy" alt="testimonialImage" />
             <div>
               <h1 className="text-white">Kenn Gallagher</h1>
               <p className="text-gray-400">Founder & Leader</p>
@@ -67,11 +67,27 @@ const Section4 = () => {
         </div>
       </div>
       <div className="flex flex-col gap-7 md:flex-row md:items-center md:justify-around justify-center items-center mt-14">
-        <img src={airbnb} alt="airbnb" className="w-[50%] md:w-[18%]" />
-        <img src={binance} alt="binance" className="w-[50%] md:w-[18%]" />
-        <img src={dropbox} alt="dropboc" className="w-[50%] md:w-[18%]" />
+        <img
+          src={airbnb}
+          loading="lazy"
+          alt="airbnb"
+          className="w-[50%] md:w-[18%]"
+        />
+        <img
+          src={binance}
+          loading="lazy"
+          alt="binance"
+          className="w-[50%] md:w-[18%]"
+        />
+        <img
+          src={dropbox}
+          loading="lazy"
+          alt="dropboc"
+          className="w-[50%] md:w-[18%]"
+        />
         <img
           src={coinbase}
+          loading="lazy"
           alt="coinbase"
           className="w-[50%] md:w-[15%] md:mb-3"
         />

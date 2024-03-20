@@ -26,6 +26,7 @@ const Section2 = () => {
           <div className="bg-[#09977C1A] p-4 rounded-full">
             <img
               src={favourite}
+              loading="lazy"
               alt="star"
               className="w-16 bg-transparent md:w-8"
             />
@@ -45,6 +46,7 @@ const Section2 = () => {
           <div className="bg-[#09977C1A] p-4 rounded-full">
             <img
               src={shield}
+              loading="lazy"
               alt="star"
               className="w-16 bg-transparent md:w-8"
             />
@@ -62,7 +64,12 @@ const Section2 = () => {
           className="flex items-center gap-3 px-3 py-10 md:pl-10"
         >
           <div className="bg-[#09977C1A] p-4 rounded-full">
-            <img src={send} alt="star" className="w-16 bg-transparent md:w-8" />
+            <img
+              src={send}
+              loading="lazy"
+              alt="star"
+              className="w-16 bg-transparent md:w-8"
+            />
           </div>
           <div>
             <h1 className="text-white text-2xl pb-2">Balance Transfer</h1>

@@ -7,7 +7,12 @@ const Section3 = () => {
   return (
     <div>
       <div className="flex flex-col-reverse gap-7 md:flex-row md:justify-center md:items-center">
-        <img src={image2} alt="image2" className="block md:w-[40%]" />
+        <img
+          src={image2}
+          loading="lazy"
+          alt="image2"
+          className="block md:w-[40%]"
+        />
         <div className="md:w-[50%]">
           <h1 className="text-white text-3xl font-bold pb-5 leading-[50px]">
             Easily control your billing & invoicing.
@@ -18,13 +23,18 @@ const Section3 = () => {
             placerat.
           </p>
           <div className="flex gap-5 mt-5">
-            <img src={appleDownload} alt="applestore" />
-            <img src={googleDownload} alt="googlestore" />
+            <img src={appleDownload} loading="lazy" alt="applestore" />
+            <img src={googleDownload} loading="lazy" alt="googlestore" />
           </div>
         </div>
       </div>
       <div className="flex flex-col-reverse gap-7 md:flex-row-reverse md:justify-center md:items-center mt-24">
-        <img src={image3} alt="image3" className="block md:w-[40%]" />
+        <img
+          src={image3}
+          loading="lazy"
+          alt="image3"
+          className="block md:w-[40%]"
+        />
         <div className="md:w-[50%]">
           <h1 className="text-white text-3xl font-bold pb-5 leading-[50px]">
             Find a better card deal in few easy steps.

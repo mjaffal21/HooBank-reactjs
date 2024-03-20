@@ -9,7 +9,12 @@ const Section5 = () => {
     <div className="bg-black text-white mt-10 p-7 w-full mx-auto">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between mb-10">
         <div>
-          <img src={logo} alt="logo" className="scale-70 mx-auto" />
+          <img
+            src={logo}
+            loading="lazy"
+            alt="logo"
+            className="scale-70 mx-auto"
+          />
           <p className="max-w-sm text-center mx-auto mt-5">
             A new way to make the payments easy, reliable and secure.
           </p>
@@ -50,10 +55,10 @@ const Section5 = () => {
           All Rights are Reserved.
         </div>
         <div className="flex justify-center gap-4">
-          <img src={instagram} alt="instagram" />
-          <img src={facebook} alt="facebook" />
-          <img src={twitter} alt="twitter" />
-          <img src={linkedin} alt="linkedin" />
+          <img src={instagram} loading="lazy" alt="instagram" />
+          <img src={facebook} loading="lazy" alt="facebook" />
+          <img src={twitter} loading="lazy" alt="twitter" />
+          <img src={linkedin} loading="lazy" alt="linkedin" />
         </div>
       </div>
     </div>
