@@ -55,10 +55,34 @@ const Section5 = () => {
           All Rights are Reserved.
         </div>
         <div className="flex justify-center gap-4">
-          <img src={instagram} loading="lazy" alt="instagram" />
-          <img src={facebook} loading="lazy" alt="facebook" />
-          <img src={twitter} loading="lazy" alt="twitter" />
-          <img src={linkedin} loading="lazy" alt="linkedin" />
+          <img
+            src={instagram}
+            loading="lazy"
+            alt="instagram"
+            width={24}
+            height={24}
+          />
+          <img
+            src={facebook}
+            loading="lazy"
+            alt="facebook"
+            width={24}
+            height={24}
+          />
+          <img
+            src={twitter}
+            loading="lazy"
+            alt="twitter"
+            width={24}
+            height={24}
+          />
+          <img
+            src={linkedin}
+            loading="lazy"
+            alt="linkedin"
+            width={24}
+            height={24}
+          />
         </div>
       </div>
     </div>
